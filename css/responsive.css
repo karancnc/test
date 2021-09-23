@@ -1,0 +1,95 @@
+
+.form_btn button:hover{opacity: 0.8; cursor: pointer;}
+.inner .form_in{width: calc(100% - 125px);}
+.inner input, .form_btn button{font-family: 'SpoilerBold';}
+.video_box video { width: 100%; position: relative; z-index: 2; height: 100%; }
+.form_box h3{padding-top: 5px;}
+@media(max-width:1690px){
+    .video_box {height: 400px;}
+    .metropolis h1 { font-size: 49px; line-height: 37px; }
+    .play_btn {width: 80px;    margin: 10px auto;}
+    .metropolis h3, .form_box h3 {font-size: 45px;line-height: 35px;}
+    
+    .metropolis {padding: 20px 30px;}
+    .metropolis::after {bottom: -10px}
+    .features h5 {font-size: 22px;padding: 15px 30px 0px 0px}
+    .video_box span{bottom: 32%;}
+
+}
+
+@media(max-width:1440px){
+    .text_img {width: 80%;}
+    .metropolis::after {bottom: -10px;width: 20%;}
+    .form_box h4{font-size: 25px;}
+    .check h5, .check_inner label.radiotype {font-size: 25px;}
+    .form_btn button {font-size: 35px; background-size: cover;}
+    .form_btn {height: 90px;}
+    .form_control {width: 45%;height: 25px;padding: 5px 10px;font-size: 25px;}
+    .features h5 {font-size: 23px;padding: 10px 30px 0px 0px;} 
+}
+
+@media(max-width:1366px){
+    .con {padding-top: 15px;}
+    .metropolis {padding: 15px 30px;left: -15px;}
+    .text_img {width: 75%;margin-right: 20px;}
+    .features h5 {font-size: 20px;padding: 10px 15px 0px 0px;}
+    .features h5 img{width: 15px;}
+    .video_box{height: 340px;}
+    .metropolis::after {bottom: 0px;width: 20%;}
+    .metropolis h3 {  font-size: 34px;   line-height: 27px; }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1365px)  {
+    .text_img { width: 72%; margin-right: 50px; }
+    .metropolis h1 { font-size: 40px; line-height: 30px; }
+    .video_box { height: 315px; }
+    .features h5{font-size: 18px;}
+}
+
+@media(max-width:1199px){
+    .form_control { width: 44%; }
+}
+
+@media(max-width:980px){
+    .main{height: auto;background: #f7941d;}
+    .rht35, .lft65{width: 100%;}
+    .metropolis, .features h5, .mobhide{display: none;}
+    .main_in {display: block;}
+    .features{padding: 20px;}
+    .text_img {width: 100%;margin-right: 0px;}
+    footer {position: relative;height: auto;}
+    .mobshow{display: block;}
+    .video_box{width: 100%;height: auto; background-color: #fff;}
+    .video_box span{display: block;}
+    form {padding-right: 0px; display: block; width: 100%;}
+    .form_box {padding: 20px;background-color: #ffffff;}
+    .form_control {width: 97%;height: 35px;border-radius: 5px; margin: 5px 0px;}
+    .form_btn{width: 100%; height: auto;}
+    .form_btn button{background: #f7941d; width: 100%;margin: 10px 0px;border-radius: 5px; padding:5px;box-shadow: 1px 1px 4px 2px rgb(0 0 0 / 75%); box-shadow: 1px 1px 4px 2px rgb(97 97 97 / 75%) inset; height: 40px; line-height: 40px; padding: 0;}
+    .for50 {width: 100%;}
+    .inner .form_in{width: 100%;}
+    .form_control{box-shadow: 0 0 5px #888; font-size: 22px;}
+    .check h5, .check_inner label.radiotype{font-size: 18px;}   
+}
+
+@media(max-width:633px){
+
+    .form_control {width: 100%; padding: 0 10px;}
+
+    .check h5, .check_inner label.radiotype {font-size: 20px;}
+    label{    line-height: 16px;font-size: 18px;     background-size: 14px;    padding-right: 19px;}
+    .check_inner{margin: 3px; margin-bottom: 0;}
+    .check h5 { padding-top: 10px; }
+    .form_btn button{margin-bottom: 0;}
+    .form_box{padding-bottom: 0;}
+    .video_box span{width: 40px; height: 40px; background-size: 40px; top: 50%;}
+    *{box-sizing: border-box;}
+
+}
+
+@media(max-width:549px){
+
+    .check{display: block;}   
+    .for50 {    width: 100%; text-align: center;}
+    .metropolis h3, .form_box h3 { font-size: 40px;}        
+
+}
